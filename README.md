@@ -4,6 +4,10 @@
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+# Serving Your Application
+
+php -S localhost:8000 -t public
+
 ## Implemented routes 
 
 # Routes Free
@@ -40,7 +44,7 @@ http://localhost:8000/user/reset-password
 http://localhost:8000/user/update-password
 
 {
-	"password": "123456"
+	"password": "string"
 }
 
 
